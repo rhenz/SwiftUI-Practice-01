@@ -14,7 +14,8 @@
 		691863BD250F977C00A2C28A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691863BC250F977C00A2C28A /* Preview Assets.xcassets */; };
 		691863C0250F977C00A2C28A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691863BE250F977C00A2C28A /* LaunchScreen.storyboard */; };
 		699878CA2524BC8E0061F8B4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699878C92524BC8E0061F8B4 /* MenuView.swift */; };
-		69AC4B11252779D800B7CE92 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AC4B10252779D800B7CE92 /* HomeView.swift */; };
+		69A49805252A1B9100525469 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A49804252A1B9100525469 /* Home.swift */; };
+		69A49809252A1BDC00525469 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A49808252A1BDC00525469 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 		691863BF250F977C00A2C28A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		691863C1250F977C00A2C28A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		699878C92524BC8E0061F8B4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		69AC4B10252779D800B7CE92 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		69A49804252A1B9100525469 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		69A49808252A1BDC00525469 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,8 @@
 				691863B3250F977B00A2C28A /* AppDelegate.swift */,
 				691863B5250F977B00A2C28A /* SceneDelegate.swift */,
 				691863B7250F977B00A2C28A /* ContentView.swift */,
-				69AC4B10252779D800B7CE92 /* HomeView.swift */,
+				69A49804252A1B9100525469 /* Home.swift */,
+				69A49808252A1BDC00525469 /* HomeView.swift */,
 				699878C92524BC8E0061F8B4 /* MenuView.swift */,
 				691863B9250F977C00A2C28A /* Assets.xcassets */,
 				691863BE250F977C00A2C28A /* LaunchScreen.storyboard */,
@@ -155,8 +158,9 @@
 				691863B4250F977B00A2C28A /* AppDelegate.swift in Sources */,
 				699878CA2524BC8E0061F8B4 /* MenuView.swift in Sources */,
 				691863B6250F977B00A2C28A /* SceneDelegate.swift in Sources */,
-				69AC4B11252779D800B7CE92 /* HomeView.swift in Sources */,
+				69A49809252A1BDC00525469 /* HomeView.swift in Sources */,
 				691863B8250F977B00A2C28A /* ContentView.swift in Sources */,
+				69A49805252A1B9100525469 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
