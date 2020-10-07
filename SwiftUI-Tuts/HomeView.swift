@@ -26,8 +26,8 @@ struct HomeView: View {
          
          ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 30) {
-               ForEach(0 ..< 5) { item in
-                  SectionView()
+               ForEach(sectionData) { section in
+                  SectionView(section: section)
                }
             }
             .padding(30)
@@ -46,21 +46,23 @@ struct HomeView_Previews: PreviewProvider {
 }
 
 struct SectionView: View {
+   var section: Section
+   
    var body: some View {
       VStack {
          HStack(alignment: .top) {
-            Text("Prototype designs in SwiftUI")
+            Text(section.title)
                .font(.system(size: 24, weight: .bold))
                .frame(width: 160, alignment: .leading)
                .foregroundColor(.white)
             Spacer()
-            Image("Logo1")
+            Image(section.logoName)
          }
          
-         Text("18 Sections".uppercased())
+         Text(section.text.uppercased())
             .frame(maxWidth: .infinity, alignment: .leading)
          
-         Image("Card1")
+         section.image
             .resizable()
             .aspectRatio(contentMode: .fit)
             .frame(width: 210)
@@ -69,8 +71,28 @@ struct SectionView: View {
       .padding(.top, 20)
       .padding(.horizontal, 20)
       .frame(width: 275, height: 275)
-      .background(Color("card1"))
+      .background(section.color)
       .cornerRadius(30)
-      .shadow(color: Color("card1").opacity(0.3), radius: 20, x: 0, y: 20)
+      .shadow(color: section.color.opacity(0.3), radius: 20, x: 0, y: 20)
    }
 }
+
+
+struct Section: Identifiable {
+   var id = UUID()
+   var title: String
+   var text: String
+   var logoName: String
+   var image: Image
+   var color: Color
+}
+
+let sectionData = [
+   Section(title: "iOS 14 Course", text: "60 Sections", logoName: "Logo1", image: Image("Card1"), color: Color("card1")),
+   
+   Section(title: "SwiftUI Course", text: "30 Sections", logoName: "Logo1", image: Image("Card2"), color: Color("card2")),
+   
+   Section(title: "Swift Design Patterns", text: "18 Sections", logoName: "Logo2", image: Image("Card3"), color: Color("card3"))
+   
+   
+]
