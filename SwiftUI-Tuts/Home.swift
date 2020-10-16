@@ -28,9 +28,8 @@ struct Home: View {
             .animation(.spring(response: 0.5, dampingFraction: 0.6, blendDuration: 0))
             .edgesIgnoringSafeArea(.all)
          
-         
          MenuView()
-            .background(Color.black.opacity(0.001))
+            .background(Color.black.opacity(0.0001))
             .offset(y: showProfile ? 0 : screen.height)
             .offset(y: viewState.height)
             .animation(.spring(response: 0.5, dampingFraction: 0.6, blendDuration: 0))

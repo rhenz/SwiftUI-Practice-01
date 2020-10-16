@@ -13,9 +13,14 @@
 		691863BA250F977C00A2C28A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691863B9250F977C00A2C28A /* Assets.xcassets */; };
 		691863BD250F977C00A2C28A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691863BC250F977C00A2C28A /* Preview Assets.xcassets */; };
 		691863C0250F977C00A2C28A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691863BE250F977C00A2C28A /* LaunchScreen.storyboard */; };
+		6975D77D2539A814004448BA /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975D77C2539A814004448BA /* Update.swift */; };
 		699878CA2524BC8E0061F8B4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699878C92524BC8E0061F8B4 /* MenuView.swift */; };
 		69A49805252A1B9100525469 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A49804252A1B9100525469 /* Home.swift */; };
 		69A49809252A1BDC00525469 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A49808252A1BDC00525469 /* HomeView.swift */; };
+		69F0FFDD2539B37B00DE602D /* UpdateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0FFDC2539B37B00DE602D /* UpdateDetailView.swift */; };
+		69F0FFE02539B74900DE602D /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0FFDF2539B74900DE602D /* UpdateStore.swift */; };
+		69F0FFE32539C16800DE602D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0FFE22539C16800DE602D /* TabBarView.swift */; };
+		69F87EA02539A33800921839 /* UpdateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F87E9F2539A33800921839 /* UpdateListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +32,14 @@
 		691863BC250F977C00A2C28A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		691863BF250F977C00A2C28A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		691863C1250F977C00A2C28A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6975D77C2539A814004448BA /* Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
 		699878C92524BC8E0061F8B4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		69A49804252A1B9100525469 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		69A49808252A1BDC00525469 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		69F0FFDC2539B37B00DE602D /* UpdateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetailView.swift; sourceTree = "<group>"; };
+		69F0FFDF2539B74900DE602D /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		69F0FFE22539C16800DE602D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		69F87E9F2539A33800921839 /* UpdateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,11 @@
 				69A49804252A1B9100525469 /* Home.swift */,
 				69A49808252A1BDC00525469 /* HomeView.swift */,
 				699878C92524BC8E0061F8B4 /* MenuView.swift */,
+				69F87E9F2539A33800921839 /* UpdateListView.swift */,
+				69F0FFDC2539B37B00DE602D /* UpdateDetailView.swift */,
+				69F0FFE22539C16800DE602D /* TabBarView.swift */,
+				69F0FFDF2539B74900DE602D /* UpdateStore.swift */,
+				6975D77C2539A814004448BA /* Update.swift */,
 				691863B9250F977C00A2C28A /* Assets.xcassets */,
 				691863BE250F977C00A2C28A /* LaunchScreen.storyboard */,
 				691863C1250F977C00A2C28A /* Info.plist */,
@@ -156,8 +171,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				691863B4250F977B00A2C28A /* AppDelegate.swift in Sources */,
+				69F0FFE32539C16800DE602D /* TabBarView.swift in Sources */,
+				69F0FFDD2539B37B00DE602D /* UpdateDetailView.swift in Sources */,
 				699878CA2524BC8E0061F8B4 /* MenuView.swift in Sources */,
+				6975D77D2539A814004448BA /* Update.swift in Sources */,
 				691863B6250F977B00A2C28A /* SceneDelegate.swift in Sources */,
+				69F87EA02539A33800921839 /* UpdateListView.swift in Sources */,
+				69F0FFE02539B74900DE602D /* UpdateStore.swift in Sources */,
 				69A49809252A1BDC00525469 /* HomeView.swift in Sources */,
 				691863B8250F977B00A2C28A /* ContentView.swift in Sources */,
 				69A49805252A1B9100525469 /* Home.swift in Sources */,
@@ -300,8 +320,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Tuts/Preview Content\"";
+				DEVELOPMENT_TEAM = BJQF9JJWDE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Tuts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +341,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Tuts/Preview Content\"";
+				DEVELOPMENT_TEAM = BJQF9JJWDE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Tuts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
